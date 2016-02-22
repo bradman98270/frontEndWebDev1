@@ -7,16 +7,27 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
     <style type="text/css">
+    /* document specific: */
         .container {
             border: 1px solid #666;
             width: 750px;
-            margin: auto 30px;
+            margin: 0 auto 30px;
         }
+        .clearIt {
+            clear: both;
+        }
+        .footer{
+            clear: both;
+        }
+
+    /* section specific: */
+
 /*
         .title {
             border: 1px solid #666;
         }
 */
+
         .box {
             width: 200px;
             border: 1px solid #7bc1fc;
@@ -47,11 +58,26 @@
             background-color: #000;
             color: white;
         }
-        .clearIt {
-            clear: both;
+
+    /* element specific: */
+
+
+        /* container 3: */
+        .img{
+            width: 75px;
+            height: 75px;
         }
-        .footer{
-            clear: both;
+        .onLeft{
+            float: left;
+        }
+        .onRight{
+            float: left;
+            background-color: yellow;
+            padding: 10px;
+            border-radius: 50%;
+            width: 75px; height: 75px;
+            shape-outside: circle(50%);
+            -webkit-clip-path: circle(50%);
         }
     </style>
     
@@ -121,6 +147,12 @@
             </div>
             <div class="clearIt"></div>
             <div class="bottom">Hey, I'm at the very bottom of everything!</div>
+        </div>
+        <div class="container">
+            <img class="img onLeft" src="images/circle.jpg" alt="1st ball" />
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <img class="img onRight" src="images/circle2.jpg" alt="2nd ball" />
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
         </div>
         <!-- {{ aside }} -->
         <p class="clearIt">Note: the 2nd div (box class) is collapsed because it's missing a NON-floated element.</p>        
