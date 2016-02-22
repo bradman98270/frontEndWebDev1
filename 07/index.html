@@ -21,8 +21,26 @@
             width: 200px;
             border: 1px solid #7bc1fc;
             float: left;
+            margin-right: 15px;
         }
-        
+        .color{
+            background-color: yellow;
+        }
+        .col1{
+            background-color: #ccc;
+            float: left;
+        }
+        .col2{
+            background-color: #999;
+            float: left;
+        }
+        .col3{
+            background-color: #666;
+            float: right;
+        }
+        .clearIt {
+            clear: both;
+        }
         .footer{
             clear: both;
         }
@@ -64,12 +82,40 @@
                     Box Content 3
                 </p>
             </div>
+            <p class="color clearIt">A good time to bike in the morning.</p>
+        </div>
+        <div class="container">
+<!--
+            <div class="title">
+                <h1>
+                    Title Goes Here!
+                </h1>
+            </div>
+-->
+            <div class="col1">
+                <h1>Box Title 1</h1>
+                <p>
+                    Box Content 1
+                </p>
+            </div>
+            <div class="col2">
+                <h1>Box Title 2</h1>
+                <p>
+                    Box Content 2
+                </p>
+            </div>
+            <div class="col3">
+                <h1>Box Title 3</h1>
+                <p>
+                    Box Content 3
+                </p>
+            </div>
+            <div class="clearIt"></div>
         </div>
         <!-- {{ aside }} -->
-
-
+        <p class="clearIt">Note: the 2nd div (box class) is collapsed because it's missing a NON-floated element.</p>        
         <!-- {{ footer }} -->
-        <div class="footer">
+        <div class="footer clearIt">
             <p>&copy; 2016, Webpage Designed by ... Jun</p>
         </div>
    
