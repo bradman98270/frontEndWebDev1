@@ -5,6 +5,28 @@
     <head>
         <title>Jun's Extreme Table Trix</title>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <style type="text/css">
+        .container {
+            border: 1px solid #666;
+            width: 750px;
+            margin: auto 30px;
+        }
+/*
+        .title {
+            border: 1px solid #666;
+        }
+*/
+        .box {
+            width: 200px;
+            border: 1px solid #7bc1fc;
+            float: left;
+        }
+        
+        .footer{
+            clear: both;
+        }
+    </style>
     
     </head>
     
@@ -16,13 +38,40 @@
         <p><a href="index.html">Home</a>::<a href="https://github.com/jun3rd/">Jun's GitHub</a>::<a href="https://www.questcomputerservices.com/">Customer of the Month</a></p>
 
         <!-- {{ Main Content }} -->
-
+        <div class="container">
+<!--
+            <div class="title">
+                <h1>
+                    Title Goes Here!
+                </h1>
+            </div>
+-->
+            <div class="box">
+                <h1>Box Title 1</h1>
+                <p>
+                    Box Content 1
+                </p>
+            </div>
+            <div class="box">
+                <h1>Box Title 2</h1>
+                <p>
+                    Box Content 2
+                </p>
+            </div>
+            <div class="box">
+                <h1>Box Title 3</h1>
+                <p>
+                    Box Content 3
+                </p>
+            </div>
+        </div>
         <!-- {{ aside }} -->
 
 
         <!-- {{ footer }} -->
-        <hr />
-        <p>&copy; 2016, Webpage Designed by ... Jun</p>
+        <div class="footer">
+            <p>&copy; 2016, Webpage Designed by ... Jun</p>
+        </div>
    
     </body>
 
