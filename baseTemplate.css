@@ -1,0 +1,29 @@
+/* global design settings */
+.clearReset{
+    clear: both;
+}
+
+h1{
+    font-family: verdana, sans-serif;
+}
+
+p{
+    font-family: verdana, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* sectional design settings */
+
+.container{
+    width: 200px;
+    marin: 0 auto;
+    /* border: ; */
+}
+
+.box{
+    width: 200px;
+    border: solid 1px #99cc33;
+}
