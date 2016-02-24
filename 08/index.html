@@ -8,13 +8,23 @@
 
     <style type="text/css">
     /* document specific: */
-        h1 {
+        .nav {
             font-family: verdana, sans-serif;
             font-size: 25px;
             margin-top: 0;
             padding: 5px;
+            background: url(images/Penguins.jpg) repeat-x center bottom #7bc1fc;
+        }
+        .nav p{
+            text-decoration: none;
+            color: white;
+        }
+        p a{
+            text-decoration: none;
+            color: white;
         }
         .container {
+            background-image: url("images/Penguins.jpg");
             border: 1px solid #666;
             width: 750px;
             margin: 0 auto 30px;
@@ -28,16 +38,12 @@
 
     /* section specific: */
 
-        .color{
-            background-color: yellow;
-        }
         .colA{
-            background-image: url("images/Penguins.jpg");
-            background-repeat: repeat;
-            background-color: #ccc;
             width: 72%;
-            float: left;
             margin-right: 3%
+            float: left;
+            border: 1px solid #333;
+            color: white;
         }
         .colB{
             background-color: #999;
@@ -51,7 +57,6 @@
 
     /* element specific: */
 
-
     </style>
     
     </head>
@@ -61,11 +66,14 @@
         <h1></h1>
         <h2></h2>
         <!-- {{ nav }} -->
+        <div class="nav">
         <p><a href="index.html">Home</a>::<a href="https://github.com/jun3rd/">Jun's GitHub</a>::<a href="https://www.questcomputerservices.com/">Customer of the Month</a></p>
-
+        </div>
         <!-- {{ Main Content }} -->
         <div class="container">
-            <div class="colA">
+            <div class="colA">.
+            fdjskfjkdslajfkl
+            fdsafsda
             </div>
             <div class="colB">
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
