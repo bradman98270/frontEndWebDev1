@@ -20,3 +20,8 @@ if selectors are used with 2 numbers then 1st number represents (top/bottom) and
 if selectors are used with 4 numbers, then it's top, right, bottom, left.
 
 **link colors universal to all browsers: https://en.wikipedia.org/wiki/Help:Link_color**
+
+
+my friend was "surfer Dave" from Surfer magazine....
+he taught me to go to places by foot
+... just go there and walk around until you meet people
