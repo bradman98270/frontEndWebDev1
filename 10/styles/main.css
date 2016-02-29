@@ -1,0 +1,40 @@
+/*
+colors used:
+dark blue: 00285c
+mid blue: 01a699
+dark orange: 7b441c
+teal: 17605f
+*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#00285c;
+    font-family:arial, sans-serif;
+}
+#container{
+    background-color:white;
+    margin:0 auto;
+    width:960px;
+}
+#mainSection{
+    margin:10px;
+}
+.article3{
+    float:left;
+    margin-right:20px;
+    width:300px;
+}
+.article3:last-child{
+    margin-right:0;
+}
+#footer{
+    background-color:#026b9a;
+    clear:both;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
