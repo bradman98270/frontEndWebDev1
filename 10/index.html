@@ -9,18 +9,19 @@
     <body>
         <div id="container">
             <div id="headSection">
-                <img src="images/seaTurtles.jpg" alt="Sea Turtles" />
+                <a href="index.html"><img src="images/seaTurtles.jpg" alt="Sea Turtles"  usemap="#backhome" /></a>
+                <map name="backhome">
+                    <area shape="rect" coordinates="0,0,500,118" href="files/hawksbill.html" />
+                </map>
             </div><!-- close headSection -->
-            <div id="mainMenu">
-                <ul>
+                <ul id="mainMenu">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">Green Turtle</a></li>
-                    <li><a href="files/hawksbill.html">Hawksbill</a></li>
+                    <li><a id="hawksbill" href="files/hawksbill.html" alt="Hawsbill">Hawksbill</a></li>
                     <li><a href="#">Ridley Turtle</a></li>
                     <li><a href="#">You Can Help</a></li>
                     <li><a href="#">Contact Us</a></li>
                 </ul>
-            </div><!-- mainMenu -->
             <div id="mainSection">
                 <div class="article3">
                     <a href="#"><img src="images/turtle1.jpg" alt="Sea Turtle" /></a>

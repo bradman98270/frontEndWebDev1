@@ -51,6 +51,14 @@ body{
     color:#016a99;
     border: solid 2px #00285c;
 }
+/* make this single hover work differently */
+#mainMenu a:hover #hawksbill{
+    border: solid -3px #00285c;
+}
+#mainMenu a:active{
+    background-color:#00285c;
+    color:#fff;
+}
 /* mainMenu END */
 
 #mainSection{
