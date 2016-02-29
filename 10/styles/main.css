@@ -2,8 +2,10 @@
 colors used:
 dark blue: 00285c
 mid blue: 01a699
+light blue: 026b9a
 dark orange: 7b441c
 teal: 17605f
+:016a99
 */
 
 *{
@@ -20,21 +22,37 @@ body{
     margin:0 auto;
     width:960px;
 }
+/* mainMenu START */
 #mainMenu{
     background-color:#026b9a;
     list-style-type:none;
+    text-align:center;
 }
 #mainMenu li{
     display:inline-block;
+    margin:0 5px 10px;
+    border: solid 3px #016a99;
 }
-#mainMenu a{
+#mainMenu li:hover{
+    border:solid 3px #00285c;
+}
+#mainMenu a:link{
+    border: solid 2px white;
     color:white;
-    text-decoration:none;
     display:block;
     padding: 10px 20px;
-    border: solid 2px white;
-    margin-bottom:10px;
+    text-decoration:none;
 }
+#mainMenu a:visted{
+    color:#ccc;
+}
+#mainMenu a:hover{
+    background-color:white;
+    color:#016a99;
+    border: solid 2px #00285c;
+}
+/* mainMenu END */
+
 #mainSection{
     margin:10px;
 }
