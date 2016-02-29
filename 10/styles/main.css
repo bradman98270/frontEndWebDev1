@@ -20,8 +20,28 @@ body{
     margin:0 auto;
     width:960px;
 }
+#mainMenu{
+    background-color:#026b9a;
+    list-style-type:none;
+}
+#mainMenu li{
+    display:inline-block;
+}
+#mainMenu a{
+    color:white;
+    text-decoration:none;
+    display:block;
+    padding: 10px 20px;
+    border: solid 2px white;
+    margin-bottom:10px;
+}
 #mainSection{
     margin:10px;
+}
+#mainSection img{
+    padding:20px;
+    border:solid 2px #999;
+    margin-bottom:10px;
 }
 .article3{
     float:left;
@@ -38,3 +58,4 @@ body{
     padding:10px;
     text-align:center;
 }
+
