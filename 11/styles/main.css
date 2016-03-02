@@ -89,18 +89,22 @@ a:visited{
     margin-right:0;
 }
 
-.turtle img{
-    border-radius:25px;
+#turtletitle{
+    background-color:#026b9a;
 }
 
-.turtle p:first-child{
-    background-color:red;
+.turtle img{
+    border-radius:215px;
 }
-#middle{
+
+.turtle :nth-child(1){
+    float:left;
+}
+.turtle :nth-child(4){
     float:right;
 }
-.turtle p:last-child{
-    background-color:blue;
+.turtle :nth-child(4){
+    clear:both;
 }
 #footer{
     background-color:#026b9a;
