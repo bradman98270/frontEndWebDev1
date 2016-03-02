@@ -43,7 +43,7 @@ body{
     padding: 10px 20px;
     text-decoration:none;
 }
-#mainMenu a:visted{
+#mainMenu a:visited{
     color:#ccc;
 }
 #mainMenu a:hover{
