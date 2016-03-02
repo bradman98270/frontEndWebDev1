@@ -93,13 +93,13 @@ a:visited{
     border-radius:25px;
 }
 
-p:first-child{
+.turtle p:first-child{
     background-color:red;
 }
 #middle{
     float:right;
 }
-p:last-child{
+.turtle p:last-child{
     background-color:blue;
 }
 #footer{
