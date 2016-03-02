@@ -1,0 +1,112 @@
+/*
+colors used:
+dark blue: 00285c
+mid blue: 01a699
+light blue: 026b9a
+dark orange: 7b441c
+teal: 17605f
+:016a99
+*/
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color:#00285c;
+    font-family:arial, sans-serif;
+}
+#container{
+    background-color:white;
+    margin:0 auto;
+    width:960px;
+}
+/* mainMenu START */
+#mainMenu{
+    background-color:#026b9a;
+    list-style-type:none;
+    text-align:center;
+}
+#mainMenu li{
+    display:inline-block;
+    margin:0 5px 10px;
+    border: solid 3px #016a99;
+}
+#mainMenu li:hover{
+    border:solid 3px #00285c;
+}
+#mainMenu a:link{
+    border: solid 2px white;
+    color:white;
+    display:block;
+    padding: 10px 20px;
+    text-decoration:none;
+}
+#mainMenu a:visted{
+    color:#ccc;
+}
+#mainMenu a:hover{
+    background-color:white;
+    color:#016a99;
+    border: solid 2px #00285c;
+}
+/* make this single hover work differently */
+#mainMenu a:hover #hawksbill{
+    border: solid -3px #00285c;
+}
+#mainMenu a:active{
+    background-color:#00285c;
+    color:#fff;
+}
+/* mainMenu END */
+
+a{
+    color:#01a699;
+}
+
+a:hover{
+    color:#00285c;
+}
+a:visited{
+    color:#7b441c;
+}
+
+#mainSection{
+    margin:10px;
+}
+#mainSection img{
+    padding:20px;
+    border:solid 2px #999;
+    margin-bottom:10px;
+}
+.article3{
+    float:left;
+    margin-right:20px;
+    width:300px;
+}
+.article3:last-child{
+    margin-right:0;
+}
+
+.turtle img{
+    border-radius:25px;
+}
+
+p:first-child{
+    background-color:red;
+}
+#middle{
+    float:right;
+}
+p:last-child{
+    background-color:blue;
+}
+#footer{
+    background-color:#026b9a;
+    clear:both;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
+
