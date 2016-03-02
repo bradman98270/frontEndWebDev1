@@ -8,10 +8,7 @@ teal: 17605f
 :016a99
 */
 
-*{
-    margin:0;
-    padding:0;
-}
+*{ margin:0; padding:0; }
 
 body{
     background-color:#00285c;
@@ -93,19 +90,48 @@ a:visited{
     margin-right:0;
 }
 
-#turtletitle{
-    background-color:#026b9a;
-    margin-bottom:20px;
-    background: -webkit-linear-gradient(left, white , #026b9a); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, white, #026b9a); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, white, #026b9a); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, white , #026b9a); /* Standard syntax */
+.turtle p{
+    text-align:justify;
+    text-justify:inter-word;
 }
 
-.turtle img{ border-radius:220px; }
-.turtle :nth-child(1){ margin-right:30px; }
+.turtle h3{
+    margin:10px 0;
+}
+
+#turtletitle{
+    background-color:#666;
+    margin-bottom:20px;
+    background: -webkit-linear-gradient(left, white , #666); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, #0666); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, #666); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white , #666); /* Standard syntax */
+}
+#turtlehighlight{
+    background-color:red;
+    margin-bottom:20px;
+    background: -webkit-linear-gradient(left, white , red); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, red); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, red); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white , red); /* Standard syntax */
+}
+.callOut{
+    border:solid 4px #666;
+    background-color:#ccc;
+    float:right;
+    margin:0 0 0 20px;
+    padding:10px;
+}
+
+.callOut ul{
+    margin-bottom:10px;
+    list-style-type:none;
+}
+
+.turtle :nth-child(4){ border-top-right-radius:100px; border-bottom-right-radius:100px; }
+.turtle :nth-child(1){ margin-right:30px; border-top-left-radius:220px; }
 .turtle :nth-child(1){ float:left; }
-.turtle :nth-child(4){ float:right; }
+.turtle :nth-child(4){ float:right; margin-left:20px; }
 .turtle :nth-child(4){ clear:both; }
 
 #footer{
