@@ -1,0 +1,16 @@
+/* submitted by Jun */
+li{
+    list-style:none;
+    float:left;
+    border:solid 4px #666;
+    border-top-color:#aaa;
+    border-left-color:#aaa;
+    margin:2px;
+    padding:2px 5px;
+    background-color:#ddd;
+}
+ul{
+    clear:both;
+    display:flex;
+    justify-content:space-between;
+}
