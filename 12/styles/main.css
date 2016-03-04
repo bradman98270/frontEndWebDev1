@@ -17,15 +17,18 @@ body{
     /* Make the font throughout Verdana, Arial, sans-serif and grey (use 666) */
     font-family:Verdana,Arial,sans-serif;
     color:#666;
+    padding:0 5px;
 }
+
 /* h2 - make the color: #6FAADC (light blue color) */
-h2 { color:#6FAADC; margin:20px 0;}
+h2 {
+    color:#6FAADC;
+    margin:20px 0;
+}
 /* Paragraphs and lists should be 12 pixels */
 ul, p { font-size: 12px; }
+ul{ margin-left:40px; }
 
-ul{
-    margin-left:40px;
-}
 /* navigation START */
 p:first-of-type a:link {
     /* navigation links: regular text color: D95A07 (orange) */
@@ -64,11 +67,11 @@ p:first-of-type a:active{
 /* Regular page links should have blue text (2F7FC4) and should turn to orange (D95A07) text on hover. */
 a { color:#2F7FC4; }
 a:visited{ }
-a:hover{ color:#D95A07; border: solid 1px yellow;}
+a:hover{ color:#D95A07; border: solid 1px yellow; padding:2px;}
 a:active{ }
 
 img{
-    margin:10px 0 30px 0;
+    margin:15px 0 30px 0;
 }
 /* mainSection END */
 
