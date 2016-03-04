@@ -24,9 +24,8 @@ h2 { color:#6FAADC; }
 ul, p { font-size: 12px; }
 
 ul{
-    
+    margin-left:40px;
 }
-
 /* navigation START */
 .nav p a {
     /* navigation links: regular text color: D95A07 (orange) */
@@ -49,7 +48,8 @@ ul{
 
 /* navigation links: When they are hovered they should have a background color of 2F7FC4 (blue) and the text should be white. */
 .nav p a:hover{
-    
+    background-color:#2F7FC4;
+    color:white;
 }
 
 /* navigation links: When the user is clicking down on them (active state) they should have a light blue background color (B7D8F5) and blue text (2F7FC4) */
