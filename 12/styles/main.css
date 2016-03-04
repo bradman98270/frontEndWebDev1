@@ -22,28 +22,21 @@ h2 { color:#6FAADC; }
 ul, p { font-size: 12px; }
 
 a {
+    /* navigation links: regular text color: D95A07 (orange) */
     color:#D95A07;
 }
 
 
-navigation links: regular text color: D95A07 (orange)
-navigation links: make them look like a button by adding a border all the way around, it should be 1 pixel and use 2F7FC4 (blue)
-navigation links:
-navigation links:
-navigation links:
-navigation links:
-navigation links:
-navigation links:
-    
+/* navigation links: make them look like a button by adding a border all the way around, it should be 1 pixel and use 2F7FC4 (blue) */
+/* navigation links: remove the underline */
+/* navigation links: add a padding all the way around of 4 pixels */
+/* navigation links: add margin on the right of each navigation button of 10 pixels */
+/* navigation links: When they are hovered they should have a background color of 2F7FC4 (blue) and the text should be white. */
+/* navigation links: When they have been visited they should have grey text and a grey border (use #666). * in order to test your visited link color in all browsers you may need to make the link an actual URL and use target="blank". */
+/* navigation links: When the user is clicking down on them (active state) they should have a light blue background color (B7D8F5) and blue text (2F7FC4) */
 
-    remove the underline
-    add a padding all the way around of 4 pixels
-    add margin on the right of each navigation button of 10 pixels
-    When they are hovered they should have a background color of 2F7FC4 (blue) and the text should be white.
-    When they have been visited they should have grey text and a grey border (use #666). * in order to test your visited link color in all browsers you may need to make the link an actual URL and use target="blank".
-    When the user is clicking down on them (active state) they should have a light blue background color (B7D8F5) and blue text (2F7FC4)
 
-Regular page links should have blue text (2F7FC4) and should turn to orange (D95A07) text on hover
+/* Regular page links should have blue text (2F7FC4) and should turn to orange (D95A07) text on hover. */
 
 
 #container{
