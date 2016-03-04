@@ -1,0 +1,80 @@
+/*
+COLORS USED:
+#6FAADC (light blue color)
+#D95A07 (orange)
+*/
+
+/***************************************************************
+ NOTE: notes are extracted directly from instructions provided:
+****************************************************************/
+ 
+
+*{ margin:0; padding:0; }
+
+body{
+    font-family:Verdana,Arial,sans-serif;
+    /* Make the font throughout Verdana, Arial, sans-serif and grey (use 666) */
+    color:#666;
+}
+/* h2 - make the color: #6FAADC (light blue color) */
+h2 { color:#6FAADC; }
+/* Paragraphs and lists should be 12 pixels */
+ul, p { font-size: 12px; }
+
+a {
+    color:#D95A07;
+}
+
+
+navigation links: regular text color: D95A07 (orange)
+navigation links: make them look like a button by adding a border all the way around, it should be 1 pixel and use 2F7FC4 (blue)
+navigation links:
+navigation links:
+navigation links:
+navigation links:
+navigation links:
+navigation links:
+    
+
+    remove the underline
+    add a padding all the way around of 4 pixels
+    add margin on the right of each navigation button of 10 pixels
+    When they are hovered they should have a background color of 2F7FC4 (blue) and the text should be white.
+    When they have been visited they should have grey text and a grey border (use #666). * in order to test your visited link color in all browsers you may need to make the link an actual URL and use target="blank".
+    When the user is clicking down on them (active state) they should have a light blue background color (B7D8F5) and blue text (2F7FC4)
+
+Regular page links should have blue text (2F7FC4) and should turn to orange (D95A07) text on hover
+
+
+#container{
+}
+/* mainMenu START */
+#mainMenu{
+}
+#mainMenu li{
+}
+#mainMenu li:hover{
+}
+#mainMenu a:link{
+}
+#mainMenu a:visited{
+}
+#mainMenu a:hover{
+}
+/* mainMenu END */
+
+/* mainSection START */
+#mainSection{
+    margin:10px;
+}
+#mainSection img{
+}
+#mainSection p{
+    
+}
+/* mainSection END */
+
+/* footer START */
+#footer{
+}
+/* footer END */

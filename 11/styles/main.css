@@ -100,20 +100,20 @@ a:visited{
 }
 
 #turtletitle{
+    background-color:#026b9a;
+    margin-bottom:20px;
+    background: -webkit-linear-gradient(left, white , #026b9a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, #026b9a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, #026b9a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white , #026b9a); /* Standard syntax */
+}
+#turtlehighlight{
     background-color:#666;
     margin-bottom:20px;
     background: -webkit-linear-gradient(left, white , #666); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, white, #0666); /* For Opera 11.1 to 12.0 */
+    background: -o-linear-gradient(right, white, #666); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(right, white, #666); /* For Firefox 3.6 to 15 */
     background: linear-gradient(to right, white , #666); /* Standard syntax */
-}
-#turtlehighlight{
-    background-color:red;
-    margin-bottom:20px;
-    background: -webkit-linear-gradient(left, white , red); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, white, red); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, white, red); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, white , red); /* Standard syntax */
 }
 .callOut{
     border:solid 4px #666;
