@@ -27,7 +27,7 @@ ul{
     margin-left:40px;
 }
 /* navigation START */
-.nav p a {
+p:first-of-type a:link {
     /* navigation links: regular text color: D95A07 (orange) */
     color:#D95A07;
     /* navigation links: make them look like a button by adding a border all the way around, it should be 1 pixel and use 2F7FC4 (blue) */
@@ -41,20 +41,21 @@ ul{
 }
 
 /* navigation links: When they have been visited they should have grey text and a grey border (use #666). * in order to test your visited link color in all browsers you may need to make the link an actual URL and use target="blank". */
-.nav p a:visited{
+p:first-of-type a:visited{
     color:#666;
     border: solid 1px #666;
 }
 
 /* navigation links: When they are hovered they should have a background color of 2F7FC4 (blue) and the text should be white. */
-.nav p a:hover{
+p:first-of-type a:hover{
     background-color:#2F7FC4;
     color:white;
 }
 
 /* navigation links: When the user is clicking down on them (active state) they should have a light blue background color (B7D8F5) and blue text (2F7FC4) */
-.nav p a:active{
-    
+p:first-of-type a:active{
+    background-color:#B7D8F5;
+    color:#2F7FC4;
 }
 /* navigation END */
 
