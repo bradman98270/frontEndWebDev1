@@ -137,14 +137,13 @@ a:visited{
 .hawksbill :nth-child(2){ clear:both; }
 
 .ridley :nth-child(1){ background-color:green; float:left; width:150px; }
-.ridley :nth-child(2){ background-color:yellow; width:150px; }
-.ridley :nth-child(3){ background-color:red; width:150px; float:right; }
+.ridley :nth-child(2){ background-color:yellow; width:194px; clear:both; float:left;}
+.ridley :nth-child(3){ background-color:red; width:150px; }
 .ridley :nth-child(4){ background-color:blue; width:150px; }
-.ridley :nth-child(5){ background-color:orange; width:300px; }
-.ridley :nth-child(5){ clear:both; }
-.ridley :nth-child(6){ background-color:gray; float:right; }
-.ridley :nth-child(7){ background-color:#999; }
-.ridley :nth-child(8){ background-color:#bbb; }
+.ridley :nth-child(5){ background-color:orange; width:300px; float:left;}
+.ridley :nth-child(6){ background-color:gray; width:250px; }
+.ridley :nth-child(7){ background-color:#999; width:250px; float:left;}
+.ridley :nth-child(8){ background-color:#bbb; width:250px; }
 
 /*
 .ridley :nth-child(1){ width:150;} 
