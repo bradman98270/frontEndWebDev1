@@ -8,6 +8,8 @@
 
 _strong tag vs em tag --> urgent vs important_
 
+The directories are numbered according to day of attendance from the first day of class. Within each numbered directory are a historical archive of notes taken during each lecture. I did git "commits" and "push" everytime there was an important change the teacher was trying to convey within the teacher's lecture or instruction.
+
 ------------------------------------
 For (641,642,643) class members:
 
