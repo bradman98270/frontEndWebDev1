@@ -1,7 +1,7 @@
 # Assignment1
 
 ## General process: 
-1. identifying a website that could use a rebuild
+1. identifying a website that could use a rebuild. (_Jun suggests:_ [Pure Skin Care Lounge](http://www.pureskinlounge.com))
 2. walk through the modern web design process phases
     * content strategy
     * information architecture
