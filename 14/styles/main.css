@@ -83,8 +83,11 @@ a:visited{
 
 #mainMenu li ul{
     position:absolute;
-    top:0;
+    /* START GENERIC RELATIVE POSITION RESET */
+    top:100%;
     left:0;
+    margin:0;
+    /* END GENERIC RELATIVE POSITION RESET */
 }
 
 #mainMenu li ul li{
