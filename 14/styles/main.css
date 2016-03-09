@@ -1,0 +1,201 @@
+/*
+colors used:
+dark blue: 00285c
+mid blue: 01a699
+light blue: 026b9a
+dark orange: 7b441c
+teal: 17605f
+:016a99
+*/
+
+*{ margin:0; padding:0; }
+
+body{
+    background-color:#00285c;
+    font-family:arial, sans-serif;
+}
+#container{
+    background-color:white;
+    margin:0 auto;
+    width:960px;
+}
+/* mainMenu START */
+#mainMenu{
+    background-color:#026b9a;
+    list-style-type:none;
+    text-align:center;
+    font-size: 12px;
+}
+#mainMenu li{
+    display:inline-block;
+    margin:0 5px 10px;
+    border: solid 3px #016a99;
+/*    border-radius:25px; */
+}
+
+/*
+#mainMenu li:hover{
+    border:solid 3px #00285c;
+    border-radius:25px;
+}
+*/
+
+#mainMenu a:link{
+    border: solid 2px white;
+    color:white;
+    display:block;
+    padding: 10px 20px;
+    text-decoration:none;
+/*    border-radius:25px; */
+}
+#mainMenu a:visited{
+    color:#ccc;
+}
+#mainMenu a:hover{
+    background-color:white;
+    color:#016a99;
+    border: solid 2px #00285c;
+/*    border-radius:25px; */
+}
+/* make this single hover work differently */
+#mainMenu a:hover #hawksbill{
+    border: solid -3px #00285c;
+}
+#mainMenu a:active{
+    background-color:#00285c;
+    color:#fff;
+}
+/* mainMenu END */
+
+a{
+    color:#01a699;
+}
+
+a:hover{
+    color:#00285c;
+}
+a:visited{
+    color:#7b441c;
+}
+
+/* START display menu when hovering */
+
+/* END display menu when hovering */
+
+
+#mainSection{
+}
+#mainSection img{
+    padding:20px;
+    border:solid 2px #999;
+    margin-bottom:10px;
+}
+.article3{
+    float:left;
+    margin-right:20px;
+    width:300px;
+}
+.article3:last-child{
+    margin-right:0;
+}
+
+.turtle p{
+    text-align:justify;
+    text-justify:inter-word;
+}
+
+.turtle h3{
+    margin:10px 0;
+}
+
+#turtletitle{
+    background-color:#026b9a;
+    margin-bottom:20px;
+    background: -webkit-linear-gradient(left, white , #026b9a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, #026b9a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, #026b9a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white , #026b9a); /* Standard syntax */
+}
+#turtlehighlight{
+    background-color:#666;
+    margin-bottom:20px;
+    background: -webkit-linear-gradient(left, white , #666); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, white, #666); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, white, #666); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, white , #666); /* Standard syntax */
+}
+.callOut{
+    border:solid 4px #666;
+    background-color:#ccc;
+    float:right;
+    margin:0 0 0 20px;
+    padding:10px;
+}
+
+.callOut ul{
+    margin-bottom:10px;
+    list-style-type:none;
+}
+
+
+/* START greensea */
+.greensea :nth-child(4){ border-top-right-radius:100px; border-bottom-right-radius:100px; }
+.greensea :nth-child(1){ margin-right:30px; border-top-left-radius:220px; }
+.greensea :nth-child(1){ float:left; }
+.greensea :nth-child(4){ float:right; margin-left:20px; }
+.greensea :nth-child(4){ clear:both; }
+/* END greensea */
+
+/* START hawksbill */
+.hawksbill :nth-child(2){ clear:both; }
+/* END hawsbill */
+
+/* START ridley */
+.ridley :nth-child(1){ background-color:green; float:left; width:150px; }
+.ridley :nth-child(2){ background-color:yellow; width:194px; clear:both; float:left;}
+.ridley :nth-child(3){ background-color:red; width:150px; }
+.ridley :nth-child(4){ background-color:blue; width:150px; }
+.ridley :nth-child(5){ background-color:orange; width:300px; float:left;}
+.ridley :nth-child(6){ background-color:gray; width:250px; }
+.ridley :nth-child(7){ background-color:#999; width:250px; float:left;}
+.ridley :nth-child(8){ background-color:#bbb; width:250px; }
+/* END ridley */
+
+/* START leatherback */
+.leatherback{
+    /* background-color:#026b9a; */
+    background: #666; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#666, #026b9a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666, #026b9a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666, #026b9a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666, #026b9a); /* Standard syntax */
+
+    padding: 10px;
+}
+
+.leatherback h1{
+	margin: 20px 0;
+	text-align: center;
+}
+.leatherback img{
+    border-radius: 130px;
+    background-color: #444;
+    display: inline-block;
+    margin-left:2%;
+}
+
+.leatherback .story{
+	display: inline-block;
+	width: 43%;
+	padding: 3%;
+}
+
+/* END leatherback */
+
+#footer{
+    background-color:#026b9a;
+    clear:both;
+    color:white;
+    padding:10px;
+    text-align:center;
+}
