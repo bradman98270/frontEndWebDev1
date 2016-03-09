@@ -30,6 +30,7 @@ body{
     display:inline-block;
     margin:0 5px 10px;
     border: solid 3px #016a99;
+    position:relative; /* this is to position the dropdown menu */
 /*    border-radius:25px; */
 }
 
@@ -79,6 +80,16 @@ a:visited{
 }
 
 /* START display menu when hovering */
+
+#mainMenu li ul{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#mainMenu li ul li{
+    display:block;
+}
 
 /* END display menu when hovering */
 
