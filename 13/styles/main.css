@@ -24,6 +24,7 @@ body{
     background-color:#026b9a;
     list-style-type:none;
     text-align:center;
+    font-size: 12px;
 }
 #mainMenu li{
     display:inline-block;
@@ -162,17 +163,24 @@ a:visited{
 
     padding: 10px;
 }
+
+.leatherback h1{
+	margin: 20px 0;
+	text-align: center;
+}
 .leatherback img{
     border-radius: 130px;
     background-color: #444;
-}
-.summary, .main-content, .aside {
     display: inline-block;
-    width:30%;
+    margin-left:2%;
 }
-.summary, .main-content{
-    padding-right:3%;
+
+.leatherback .story{
+	display: inline-block;
+	width: 43%;
+	padding: 3%;
 }
+
 /* END leatherback */
 
 #footer{
