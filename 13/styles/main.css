@@ -74,7 +74,6 @@ a:visited{
 }
 
 #mainSection{
-    margin:10px;
 }
 #mainSection img{
     padding:20px;
@@ -128,14 +127,20 @@ a:visited{
     list-style-type:none;
 }
 
+
+/* START greensea */
 .greensea :nth-child(4){ border-top-right-radius:100px; border-bottom-right-radius:100px; }
 .greensea :nth-child(1){ margin-right:30px; border-top-left-radius:220px; }
 .greensea :nth-child(1){ float:left; }
 .greensea :nth-child(4){ float:right; margin-left:20px; }
 .greensea :nth-child(4){ clear:both; }
+/* END greensea */
 
+/* START hawksbill */
 .hawksbill :nth-child(2){ clear:both; }
+/* END hawsbill */
 
+/* START ridley */
 .ridley :nth-child(1){ background-color:green; float:left; width:150px; }
 .ridley :nth-child(2){ background-color:yellow; width:194px; clear:both; float:left;}
 .ridley :nth-child(3){ background-color:red; width:150px; }
@@ -144,13 +149,31 @@ a:visited{
 .ridley :nth-child(6){ background-color:gray; width:250px; }
 .ridley :nth-child(7){ background-color:#999; width:250px; float:left;}
 .ridley :nth-child(8){ background-color:#bbb; width:250px; }
+/* END ridley */
 
-/*
-.ridley :nth-child(1){ width:150;} 
-.ridley :nth-child(2){ width:250px; }
-.ridley :nth-child(3){ float:right; }
-.ridley :nth-child(3){ width:250px; }
-*/
+/* START leatherback */
+.leatherback{
+    /* background-color:#026b9a; */
+    background: #666; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#666, #026b9a); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#666, #026b9a); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#666, #026b9a); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#666, #026b9a); /* Standard syntax */
+
+    padding: 10px;
+}
+.leatherback img{
+    border-radius: 130px;
+    background-color: #444;
+}
+.summary, .main-content, .aside {
+    display: inline-block;
+    width:30%;
+}
+.summary, .main-content{
+    padding-right:3%;
+}
+/* END leatherback */
 
 #footer{
     background-color:#026b9a;
