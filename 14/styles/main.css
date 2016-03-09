@@ -31,7 +31,7 @@ body{
     margin:0 5px 10px;
     border: solid 3px #016a99;
     position:relative; /* this is to position the dropdown menu */
-/*    border-radius:25px; */
+    /* border-radius:25px; */
 }
 
 /*
@@ -88,10 +88,23 @@ a:visited{
     left:0;
     margin:0;
     /* END GENERIC RELATIVE POSITION RESET */
+    display:none;
+}
+
+/* below is the hover action that triggers the menu to display */
+#mainMenu li:hover > ul{
+    display:block;
 }
 
 #mainMenu li ul li{
     display:block;
+    margin:0;
+    background-color: #01a699;
+}
+
+#mainMenu ul a:link {
+    padding:5px 5px 5px 20px;
+    margin-bottom: none;
 }
 
 /* END display menu when hovering */
