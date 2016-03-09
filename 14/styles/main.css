@@ -31,15 +31,14 @@ body{
     margin:0 5px 10px;
     border: solid 3px #016a99;
     position:relative; /* this is to position the dropdown menu */
-    /* border-radius:25px; */
+    border-radius:25px;
 }
 
-/*
+
 #mainMenu li:hover{
     border:solid 3px #00285c;
     border-radius:25px;
 }
-*/
 
 #mainMenu a:link{
     border: solid 2px white;
@@ -47,7 +46,7 @@ body{
     display:block;
     padding: 10px 20px;
     text-decoration:none;
-/*    border-radius:25px; */
+    border-radius:25px;
 }
 #mainMenu a:visited{
     color:#ccc;
@@ -56,7 +55,7 @@ body{
     background-color:white;
     color:#016a99;
     border: solid 2px #00285c;
-/*    border-radius:25px; */
+    border-radius:25px;
 }
 /* make this single hover work differently */
 #mainMenu a:hover #hawksbill{
