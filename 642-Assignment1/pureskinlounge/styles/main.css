@@ -1,0 +1,43 @@
+/* main.CSS
+ * Default CSS for the entire site.
+ * Divided into 2 mian sections: (1) site, (2) page.
+ * Each of the two sections are sub-divided into 5 sub-sections.
+ * */
+ 
+/* START reset */
+*{ margin:0; padding:0; }
+/* END reset */
+
+/* START SITE general */
+/* START entire site body */
+body {
+	background-color: white;
+}
+/* END entire site body */
+
+/* START entire site navigation */
+/* END entire site  navigation */
+
+/* START entire site main content */
+/* END entire site main content */
+
+/* START entire site element specific */
+/* END entire site element specific */
+
+/* START SITE general */
+
+/* START PAGE specific */
+
+/* START entire site body */
+/* END entire site body */
+
+/* START entire site navigation */
+/* END entire site  navigation */
+
+/* START entire site main content */
+/* END entire site main content */
+
+/* START entire site element specific */
+/* END entire site element specific */
+
+/* END PAGE specific */
