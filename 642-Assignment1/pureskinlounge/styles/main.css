@@ -89,17 +89,6 @@ ul {
 }
 
 
-#bookingInfo {}
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -130,6 +119,27 @@ ul {
 	color: orange;
 	margin: 0 10px;
 	padding: 10px;
+}
+
+#bookingInfo {
+	background-color: #333;
+	width: 20%;
+}
+
+
+.bookingStyle {
+	color: #fff;
+	margin: 0 auto;
+	padding: 10px;
+	background-color: #333;
+}
+
+#footer {
+	color: hotpink;
+}
+
+.footer {
+	color: hotpink;
 }
 
 
