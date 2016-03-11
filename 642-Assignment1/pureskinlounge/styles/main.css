@@ -6,19 +6,71 @@
  * ---------------------------------------- */
  
 /* START reset */
-*{ margin:0; padding:0; }
+*	{ 
+	margin: 0; 
+	padding:0; }
 /* END reset */
 
 /* ---------------------------------------- */
 /* START SITE general */
 /* START entire site body */
-body {
+body, p {
 	background-color: white;
-	font-family: Impact, Charcoal, sans-serif;
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 14px;
 }
+
+p {	color: #030303;
+	
+}
+
+h2 { 
+	font-family: 'Philosopher', sans-serif;
+	font-size: 20px;
+}
+	
 /* END entire site body */
 
 /* START entire site navigation */
+a, a:link {
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #7AB4BF;
+	
+}
+
+a:hover {
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #8EC9D6;
+	
+}
+
+a:visited {
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #51787F;
+	
+}
+
+a:active {
+	font-family: 'Ek Mukta', sans-serif;
+	font-size: 14px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #668B8B;
+	
+}
+
+
+
+
 /* END entire site  navigation */
 
 /* START entire site main content */

@@ -24,5 +24,5 @@ For (641,642,643) class members:
 * [pick a linux environment, considering apache is the #1 used web server](http://distrowatch.com/)
 * [learn the "back-end" by configuring your own "LAMP" stack (Linux Apache MySQL PHP) ](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu)
 * what do I edit/develop with locally on my machine? [I use Geany](http://www.geany.org/) because it's a customizable editor and extremely light IDE (Integrated Eevelopment Environment)
-
-
+* [color wheel](https://color.adobe.com/create/color-wheel/) - contributed by [Jazz Aguon](https://github.com/jazzums)
+ 
