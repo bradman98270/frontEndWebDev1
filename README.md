@@ -35,4 +35,9 @@ For (641,642,643) class members:
 
 **_NOTE: if you're coding multi-lingual sites, [refer to this](http://www.grayboxpdx.com/blog/post/multi-language-websites)_**
 
+**_NOTE: for HTML5: secttion vs article [here's how it's used](http://www.w3schools.com/html/html5_semantic_elements.asp)_**
+**_NOTE: [number 1 ranking nfl.com is the perfect example](http://www.w3schools.com/html/html5_semantic_elements.asp)_**
+**_NOTE: [here's the actual meaning of <section>](here's the actual meaning: https://www.w3.org/TR/html5/sections.html#the-section-element)_**
+**_NOTE: [here's the actual meaning of <article>](https://www.w3.org/TR/html5/sections.html#the-article-element)_**
+
 ## job descriptions coming soon!!!
