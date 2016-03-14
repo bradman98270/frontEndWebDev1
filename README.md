@@ -25,4 +25,10 @@ For (641,642,643) class members:
 * [learn the "back-end" by configuring your own "LAMP" stack (Linux Apache MySQL PHP) ](https://www.digitalocean.com/community/tutorials/how-to-install-linux-apache-mysql-php-lamp-stack-on-ubuntu)
 * what do I edit/develop with locally on my machine? [I use Geany](http://www.geany.org/) because it's a customizable editor and extremely light IDE (Integrated Eevelopment Environment)
 * [color wheel](https://color.adobe.com/create/color-wheel/) - contributed by [Jazz Aguon](https://github.com/jazzums)
- 
+
+## Understanding SEO:
+* [Methods for comparing rankings of search engine results](http://cs.wellesley.edu/~cs315/Papers/BarIlan-MathodsComparingRankings.pdf)
+* [Avoid coding that generates Search Engine Spam](http://searchengineland.com/guide/seo/violations-search-engine-spam-penalties)
+* [the Periodic Table of SEO](http://searchengineland.com/seotable)
+
+## job descriptions coming soon!!!
