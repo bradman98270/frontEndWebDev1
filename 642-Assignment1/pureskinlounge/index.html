@@ -7,6 +7,14 @@
   -- most users want to see on one page. Navigational and content links
   -- provide users with more detailed content to engage users.
   -- ---------------------------------------- -->
+  
+<!--[if lte IE 8]>
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-old-ie-min.css">
+<![endif]-->
+<!--[if gt IE 8]><!-->
+    <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/grids-responsive-min.css">
+<!--<![endif]-->
+
 	<meta name="description" content="SDCE Front End Web Development 642 Assignment 1 www.pureskinlounge.com" />
 	<meta name="keywords" content="SDCE Front End Web Development 642 Assignment 1 www.pureskinlounge.com" />
 	<meta name="author" content="Jasmine Aguon, Jun Alvarado" />
@@ -27,14 +35,26 @@
 	
 	<p class="topInfo">4026 HAWK ST. Ste. H | SAN DIEGO CA 92103 | 619.354.6826</p>
 	
-	<!-- start top navigation -->
+	<!-- start navigation -->
 	
-	<div id="topNav">
+	<div class="topNav" id="menu">
 	<ul>
 		<li><a href="index.html">home</a></li>
-		<li><a href="files/skin-care.html">skin care</a>
+		
+			<li><a href="files/skin-care.html">skin care</a>
+				<li><a href="files/acne-clinic.html">ACNE CLINIC</a>
+				<li><a href="files/what-is-acne.html">What is acne?</a>
+				
 		<li><a href="files/waxing.html">waxing</a></li>
+			<li><a href="files/waxing-faq.html">FAQ</a>
+			
 		<li><a href="files/spray-tans.html">spray tans</a></li>
+			<li><a href="files/caring-for-your-tan.html">Caring for your tan</a>
+				<li><a href="files/spray-tans-faq.html">FAQ</a>
+			
+			<li><a href="files/contact.html">contact</a>
+				<li><a href="files/brazillian-wax-class.html">skin care</a>
+			
 		<li><a href="files/about.html">about</a></li>
 		<li><a href="files/shop.html">shop</a></li>
 	</ul>
@@ -43,20 +63,35 @@
 	
 	<!-- end top navigation -->
 	
+	<!-- ERROR: ask client please ref. to www.belagio.com
+	notice the "book a room" option -->
+	
 	<div id="bookingInfo">
 	
 	<p class="bookingStyle">
+		
 	book online!<br />
 	MON - SAT  9am to 8pm<br />
 	BY APPOINTMENT ONLY</p>
 	
 		</div>
+
+	
+	<!-- END ERROR -->
+	
+	<!-- start main content -->
 	
 	<div id="mainText">
 	
 	<p> Pure Skin Lounge implements an arsenal of proprietary treatments and clinically active ingredients to transform your skin. Clearly committed to beautiful skin, we aspire to help you achieve luminous skin.   Each Pure Skin Lounge treatment begins with a skin analysis and consultation to help choose the right treatment for you.  From fine lines, wrinkles, and skin laxity, blackheads, oily skin, dry flaky skin, rosacea, and age spots to Melasma - we can tighten, lighten, reduce redness and improve your skins texture, while correcting the acid mantle.</p>
 
 	</div>
+	
+	<!-- end main content -->
+	
+	<!-- start footer -->
+	
+	
 	
 	<div id="bottomInfo">
 		
@@ -69,6 +104,9 @@
 	<p class="footer">This is the footer.</p>
 	
 	</div>
+	
+	<!-- end footer -->
+	
 		</div>
 			</div>
 		

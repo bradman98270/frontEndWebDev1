@@ -1,14 +1,17 @@
 /* Title: main.css
  * Primary Contributors: Jas Aguon and Jun Alvarado
  * Summary: Default CSS for the entire site.
- * Detailed Description: Divided into 2 mian sections: (1) site, (2) page.
+ * Detailed Description: Divided into 2 main sections: (1) site, (2) page.
  * Each of the two sections are sub-divided into 5 sub-sections.
  * ---------------------------------------- */
  
 /* START reset */
-*	{ 
+
+* { 
 	margin: 0; 
-	padding:0; }
+	padding: 0; 
+}
+	
 /* END reset */
 
 /* ---------------------------------------- */
@@ -31,10 +34,9 @@ h2 {
 	font-weight: normal;
 }
 	
-/* END entire site body */
+a {}
 
-/* START entire site navigation */
-a, a:link {
+a:link {
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
 	font-weight: normal;
@@ -68,52 +70,32 @@ a:active {
 	text-decoration: none;
 	color: #668B8B;
 	
+}	
+
+#mainContainer {
+	max-width: 800px;
+	margin: 0 auto;
 }
 
 #headSection {
 	margin: 0 auto;
-	
 }
 
-/* END entire site  navigation */
+/* END entire site body */
 
-ul {
-	padding: 0;
-	list-style-type: none;
-}
+/* START entire site navigation */
+
 
 .topNav {
-	margin: 0 auto;
-	padding-left: 20px;
-	
+	display:inline-block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* END entire site  navigation */
 
 /* START entire site main content */
 
 /* END entire site main content */
 
 /* START entire site element specific */
-
-#mainContainer {
-	width: 80%;
-	margin: 0 auto;
-	float: none;
-	
-}
 
 .topInfo {
 	color: orange;
@@ -134,10 +116,12 @@ ul {
 	background-color: #333;
 }
 
-#footer {}
+#footer {
+	text-align: left;
+}
 
 .footer {
-	background-color: #ccc;
+	background-color:;
 	color: hotpink;
 	font-size: 10px;
 }
