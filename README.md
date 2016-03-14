@@ -33,4 +33,6 @@ For (641,642,643) class members:
 
 **_NOTE: keep in mind that most small businesses want to just have a social presence on blogs/portals (ie. yelp) - and not necessarily a website!_**
 
+**_NOTE: if you're coding multi-lingual sites, [refer to this](http://www.grayboxpdx.com/blog/post/multi-language-websites)_**
+
 ## job descriptions coming soon!!!
