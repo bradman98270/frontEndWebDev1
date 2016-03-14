@@ -31,4 +31,6 @@ For (641,642,643) class members:
 * [Avoid coding that generates Search Engine Spam](http://searchengineland.com/guide/seo/violations-search-engine-spam-penalties)
 * [the Periodic Table of SEO](http://searchengineland.com/seotable)
 
+**_NOTE: keep in mind that most small businesses want to just have a social presence on blogs/portals (ie. yelp) - and not necessarily a website!_**
+
 ## job descriptions coming soon!!!
