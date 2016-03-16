@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
 <style>
-    resetStyle{
-        
+    article{
+        display:inline-block;
+        width:33%;
     }
-    body {
-        
+    nav ol {
+        list-style-type: none;
     }
-    
+
+    nav ol li {
+        display:inline-block;
+    }
 <!-- /*
     
 */ -->
@@ -19,9 +23,37 @@
 <body>
 <div id="container">
     <header>
+        <nav>
+            <ol>
+                <li>
+                    <a href="">link 1</a>
+                    <ul>
+                        <li>
+                            <a href="">link 1.1</a>
+                        </li>
+                        <li>
+                            <a href="">link 1.2</a>
+                        </li>
+                        <li>
+                            <a href="">link 1.3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="">link 2</a>
+                </li>
+                <li>
+                    <a href="">link 3</a>
+                </li>
+                <li>
+                    <a href="">link 4</a>
+                </li>
+            </ol>
+
+        </nav>
     </header>
 
-    <section id="mainSection">
+    <section>
         <article>
             <img src="" alt="" />
             <a href="">What is Lorem Ipsum?</a>
