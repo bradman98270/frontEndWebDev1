@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+	* {
+		padding:0;
+		margin:0;
+	}
+	nav ul {
+		list-style-type: none;
+		position: absolute;
+	}
+	nav ul li {
+		display: inline-block;
+		border: solid 1px green;
+		padding: 5px;
+		margin:0 2px;
+	}
+	/* START: hide sub-menu */
+		nav ul ol {
+		list-style-type: none;
+		display:none;
+		position:absolute;
+		top:32px;
+	}
+	/* END: hide sub-menu */
+	/* START: show sub-menu via mouse hover */
+	nav ul li:hover ol {
+		display:block;
+	}
+	nav ul ol li {
+		display: block;
+	}
+	/* END: show sub-menu via mouse hover */
+	/* START: hide 3rd-tier menu */
+	nav ul ol ul {
+		display: none;
+		list-style-type: none;
+		position:absolute;
+		left: 66px;
+		top: 10px;
+	}
+	nav ul ol ul li {
+		width: 120px;
+	}
+	/* END: hide 3rd-tier menu */
+	/* START: show 3rd-tier menu via mose hover */
+	nav ul ol li:hover ul {
+		display: block;
+	}
+	/* END: show 3rd-tier menu via mose hover */
+</style>
+<title>drop down navigation</title>
+</head>
+<body>
+<nav>
+	<ul>
+		<li>
+			<a href="#">link 1</a>
+			<ol>
+				<li>
+					<a href="www.google.com">google</a>
+					<ul>
+						<li><a href="#">3rd-tier link 1</a></li>
+						<li><a href="#">3rd-tier link 2</a></li>
+						<li><a href="#">3rd-tier link 3</a></li>
+						<li><a href="#">3rd-tier link 4</a></li>
+					</ul>
+				</li>
+				<li><a href="www.ask.com">ask</a></li>
+				<li><a href="www.yahoo.com">yahoo</a></li>
+			</ol>
+		</li>
+		<li><a href="#">link 2</a></li>
+		<li><a href="#">link 3</a></li>
+	</ul>
+</nav>
+<main>
+	<section></section>
+	<article></article>
+</main>
+</body>
+</html>

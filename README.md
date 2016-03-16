@@ -39,5 +39,8 @@ For (641,642,643) class members:
 **_NOTE: [number 1 ranking nfl.com is the perfect example](http://www.w3schools.com/html/html5_semantic_elements.asp)_**
 **_NOTE: [here's the actual meaning of <section>](here's the actual meaning: https://www.w3.org/TR/html5/sections.html#the-section-element)_**
 **_NOTE: [here's the actual meaning of <article>](https://www.w3.org/TR/html5/sections.html#the-article-element)_**
+**_NOTE: [excellent article about why your page should be tagged correctly with HTML5 semantic tags](https://www.smashingmagazine.com/2013/01/the-importance-of-sections/)_**
+**_NOTE: [another excellent article about why your page should  be tagged correctly with HTML5 semantic tags](http://html5doctor.com/html5-seo-search-engine-optimisation/)_**
+
 
 ## job descriptions coming soon!!!
