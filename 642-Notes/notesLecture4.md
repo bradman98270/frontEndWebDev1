@@ -65,19 +65,60 @@
 	* experiment with prototype
 	* test and evaluate prototype
 	* refine (evaluate == suggest changes to) design ( 
-* 
 
 ## (4.2.2)
-* 
-* 
-* 
-* 
+### scoping  = define overall focus and set measurable goal(s)
+* follow current existing process, but if none exists create one based on current workflow
+* refer to initial documents that define project requirements (which contains: scope, intended audience, basic framework of how it should function)
+* example requirements document: contain sections:
+	* Executive summary:
+		* establish focus of application
+		* outline basic functionality
+		* overall direction of development process
+	* target audience: 
+	* functional requirements:
+		* "user account" functionality
+			* user login
+			* creating new users
+			* main purpose achieved via user interaction: (ie. planning a meal)
+			* additional enhancements (ie. meal suggestions, saved meals, choosing meal compliments, ...)
+			* miscellaneous functionality (ie. general AND specialized user interface(s))
+	* flatform requirements: hardware, OS, app dependencies (etc....)
+	* application qualities:
+		* user-friendliness
+		* correctness
+		* re-usability
+		* extensibility
+		* verifiability
+		* understandability
+		* interoperability
+	* time schedule
+	* potential risks
+		* difficult to use areas:
+		* incorrect information
+		* complex algorithms used (ie. list assumptions that the meal planning algorithm is expected to achieve)
+	* future changes
+		* web interface
+		* advertising products
+		* 3rd party tie-ins
+**_NOTE: ALL projects deviate (somewhat) from the initial requirements document_**
+#### properly scoping projects:
+* determine the focus of your project, and the basic idea of its requirements
+* be generative: allow prototyping process to refine this focus will be more innovative and generate new ideas
+* often results in a better overall UX
+* example: (meal planning app)
+	* tablet app assists with planning meal
+	* meal suggestions are made based on what user is cooking for their entree choice
+	* user can save meals and recipes
+	* over time, app should learn user's personal preferences (and make suggestions of "perfectly matching" meals)
 
 ## (4.2.3)
-* 
-* 
-* 
-* 
+### sketching ideas
+* allows everyone to contribute/participate (10-15 minutes w/ review)
+* collaborate with others to discover what's important to other stakeholders
+* UX "usability" concerns addressed early in the planning phase
+* USE project board or wall to POST ALL ideas, then narrow by rejecting worse ideas
+
 
 ## (4.2.4)
 * 
