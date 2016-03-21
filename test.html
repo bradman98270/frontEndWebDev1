@@ -2,19 +2,24 @@
 <html lang="en">
 <head>
     <style>
+        /* reset styles */
+        * { margin:0;padding:0; }
         nav ol {
+            list-style-type: none;
+            position: absolute;
         }
         nav ol li {
-            display:inline-block;
-            list-style-type: none;
+            display: inline-block;
         }
     </style>
 </head>
 <body>
     <nav>
         <ol>
-            <li>
-                <a href="www.google.com">Google</a>
+            <li><a href="http://www.google.com/">Google</a>
+                <ol>
+                    <li><a href="http://mail.google.com/">gmail</a></li>
+                </ol>
             </li>
             <li>
                 <a href="www.yahoo.com">Yahoo</a>
