@@ -118,13 +118,36 @@
 * collaborate with others to discover what's important to other stakeholders
 * UX "usability" concerns addressed early in the planning phase
 * USE project board or wall to POST ALL ideas, then narrow by rejecting worse ideas
-
+* include sketching session into prototype review
 
 ## (4.2.4)
-* 
-* 
-* 
-* 
+### understanding prototype fidelity
+* fidelity prototype == how closely visual design matches finished product ==>> visual fidelity
+* low-fidelity = wireframes or "schematic prototypes" -->> focusing on (static) content or _how_ the interface works
+* high-fidelity = refined design prototype -->> focused on how (dynamic {variable sourced}) apps react to user interaction
+* fidelity considerations:
+	* visual design
+	* interactivity
+		* UI widgets react to gestures/interactions
+		* elements animate/transition
+		* screen states changes based on user interactions
+	* data and content
+	* environment (where will users be accessing this data?)
+	* social interaction (how will ALL the users experience the content)
+	* ... other aspects of user interaction
+* finished design concerns:
+	* colour
+	* layout
+	* typography
+	* all other visual components
+
+** consider a sliding indicator to allow stakeholders to estimate fidelity: **
+* visual design (low <<---- vs ---->> high)
+* interactivity (low <<---- vs ---->> high)
+* data and content (low <<---- vs ---->> high)
+* environment (low <<---- vs ---->> high)
+* social interaction (low <<---- vs ---->> high)
+* other aspects (low <<---- vs ---->> high)
 
 ## (4.2.5)
 * 
