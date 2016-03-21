@@ -46,14 +46,25 @@
 
 ## (4.1.4)
 ### build effective prototypes
-* 
-* 
-* 
+* know whom you're designing for
+* build ONLY what you need
+* do NOT waste time on details
+* accurately depict UX
+* properly set expectation(s) of user goal
+
 
 ## (4.2.1)
-* 
-* 
-* 
+### design process overview
+* typical design process:
+	* brainstorming (set time limit): {goal is to generate as many ideas as you can within limited time frame}
+		* pencil & paper sketch
+		* collaboration planning
+		* word storms
+		* style/element tiles	
+	* planning = basic documentation, outline, wireframe
+	* experiment with prototype
+	* test and evaluate prototype
+	* refine (evaluate == suggest changes to) design ( 
 * 
 
 ## (4.2.2)
