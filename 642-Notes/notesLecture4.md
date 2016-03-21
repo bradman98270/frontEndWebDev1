@@ -25,13 +25,27 @@
 	* 
 
 ## (4.1.3)
-* 
-* 
-* 
-* 
+** fidelity = how _"closely"_ it resembles look and functionality of finished project **
+### prototype goals:
+* physically refine design
+	* physically test design
+	* test ideas, gauge user feed back, try ideas w/o committing code
+	* higher fidelity prototypes provide feedback on design usability
+	* lower fidelity prototypes provides room for innovation
+* design w/o technical restraints
+	* focus on UX w/o worrying about technical feasibility
+	* dev restrictions harm UX and narrow focus
+	* functional prototype justifies further development of features
+* increased collaboration
+	* spur collaboration more than any other phase of design
+	* establish rules and channels for communication
+	* have plan in place to keep discussions productive
+* sell ideas
+	* easier to convince clients if they can play with it
+	* functionality focuses on (exciting) selling points of the product
 
 ## (4.1.4)
-* 
+### build effective prototypes
 * 
 * 
 * 
