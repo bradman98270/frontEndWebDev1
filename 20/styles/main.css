@@ -6,7 +6,7 @@
 nav ul li {
     display:inline-block;
     border: solid 1px red;
-    padding: 2px 8px;
+    padding: 4px 10px;
 }
 
 /* menu: 2nd tier */
@@ -26,8 +26,17 @@ nav ul li ul li{
 }
 
 /* menu: 3rd tier */
-nav > ul > li > ul > li > ul {
-    display:none;
+nav ul li ul li ul {
+    background-color: skyblue;
+}
+
+nav ul li ul li ul li {
+        display:none;
+}
+
+nav ul li ul li:hover ul li {
+    position:relative;
+    display:block;
 }
 
 #turtle {
@@ -35,3 +44,23 @@ nav > ul > li > ul > li > ul {
     top:0px;
     right:0px;
 }
+
+/* NOTE: below conditional rule is not working, please fix. */
+/*
+@document
+    url(file:///e/frontEndWebDev1/20/index2.html)
+    body {
+        background-color:red;
+    }
+*/
+
+
+/*
+     __             ________           .___ 
+    |__|__ __  ____ \_____  \______  __| _/ 
+    |  |  |  \/    \  _(__  <_  __ \/ __ |  
+    |  |  |  /   |  \/       \  | \/ /_/ |  
+/\__|  |____/|___|  /______  /__|  \____ |  
+\______|          \/       \/           \/  
+
+*/
