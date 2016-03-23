@@ -1,0 +1,37 @@
+/* default clear */
+* { margin:0; padding:0}
+
+/* menu: 1st tier */
+
+nav ul li {
+    display:inline-block;
+    border: solid 1px red;
+    padding: 2px 8px;
+}
+
+/* menu: 2nd tier */
+
+nav ul li ul {
+    position:absolute;
+    background-color:whitesmoke;
+    display:none;
+}
+
+nav ul li:hover ul {
+    display:block;
+}
+
+nav ul li ul li{
+    display:block;
+}
+
+/* menu: 3rd tier */
+nav > ul > li > ul > li > ul {
+    display:none;
+}
+
+#turtle {
+    position:fixed;
+    top:0px;
+    right:0px;
+}
