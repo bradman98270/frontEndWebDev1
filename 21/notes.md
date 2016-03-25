@@ -4,3 +4,7 @@
 
 ** http://pxtoem.com/ **
 
+## cartography
+* http://cartonerd.blogspot.com/2014/08/three-dee-thematics.html
+* http://thematicmapping.org/techniques/
+
