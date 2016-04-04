@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header, nav, section, aside, article, footer, video, audio, main {
+    display: block;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    margin: 10px;
+    color: #fff;
+    background-color: blue;
+}
+
+footer {
+
+}
+
+@media screen and (min-width: 600px) {
+    body {
+        background-color: darkorange;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    body {
+        background-color: darkmagenta;
+    }
+}
+
