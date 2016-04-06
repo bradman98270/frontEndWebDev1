@@ -1,1 +1,1 @@
-Worked on project. Not much notes.
+Spent day working on project. Not much notes.

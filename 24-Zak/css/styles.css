@@ -1,0 +1,4 @@
+hr          {margin-bottom:10px;}
+#menu       {list-style-type:none;float:right;margin:50px 0 0 0;}
+#menu li    {float:left;padding:0 10px;}
+#menu li a  {color:; text-decoration:none;font-weight:10px;}
