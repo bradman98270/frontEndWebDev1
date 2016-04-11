@@ -63,11 +63,20 @@ header, nav, section, aside, article, footer, video, audio, main {      display:
     font-style: normal;
 }
 
-h2{
-    font-family:fengardo_neueblack, sans-serif;
-}
-
 body{
     background-color: #2fa1e0;
-    background-image: linear-gradient(45deg, #2fa1e0 70%, green 30%, white);
+    background-image: linear-gradient(#2fa1e0, white);
+}
+
+header{
+    background-color: #24316c;
+    background-image: linear-gradient(#24316c,#2fa1e0 80%);
+    color: white;
+}
+
+h1{
+    font-family: 'fengardo_neueblack', sans-serif;
+    font-size: 3.75em; /* 60px / 16pt = 3.75 em */
+    text-shadow: 4px 4px 8px #333;
+    letter-spacing: 10px;
 }
