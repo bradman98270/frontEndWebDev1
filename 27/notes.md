@@ -2,3 +2,7 @@
 ==========
 
 finishing up work from monday
+
+what you need to know to work as a front end dev:
+https://www.toptal.com/front-end/job-description
+https://www.roberthalf.com/creativegroup/blog/hot-job-front-end-web-developer

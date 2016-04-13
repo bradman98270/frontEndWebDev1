@@ -1,11 +1,21 @@
 /*
     colors:
-        medium blue: #2fa1e0
-        dark blue: #243a6c  
-        dark navy blue: #0a193b
-        regular links: #196a96
+        2fa1e0;
+        ;
+        regular links: #196a96;
+        dark navy: #0a193b;
 */
-/*embedded fonts  */
+
+/* fonts from https://www.fontsquirrel.com/ */
+
+
+header, nav, section, aside, article, footer, video, audio, main {      display: block;
+}
+* {
+    padding:0;
+    margin:0;
+}
+
 @font-face {
     font-family: 'cabinbold';
     src: url('../fonts/cabin-bold-webfont.eot');
@@ -16,9 +26,7 @@
          url('../fonts/cabin-bold-webfont.svg#cabinbold') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'cabinitalic';
@@ -30,11 +38,7 @@
          url('../fonts/cabin-italic-webfont.svg#cabinitalic') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
-
 
 @font-face {
     font-family: 'cabinregular';
@@ -46,9 +50,7 @@
          url('../fonts/cabin-regular-webfont.svg#cabinregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
 
 @font-face {
     font-family: 'fengardo_neueblack';
@@ -60,99 +62,71 @@
          url('../fonts/fengardoneue_black-webfont.svg#fengardo_neueblack') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
 
-header, nav, section, aside, article, footer, video, audio, main {      display: block;
+.clearit {
+    
 }
-* {
-    padding:0;
-    margin:0;
-}
-body {
-    font-family:'cabinregular',sans-serif;
-    background-color:#2fa1e0;
+
+body{
+    background-color: #2fa1e0;
     background-image: linear-gradient(#2fa1e0, white);
 }
-header {
-    background-color:#243a6c;
-    background-image:linear-gradient(#2fa1e0, #243a6c 80%);
-    color:white;
+
+header{
+    background-color: #24316c;
+    background-image: linear-gradient(#24316c,#2fa1e0 80%);
+    color: white;
 }
-h1 {
-    font-family:'fengardo_neueblack', sans-serif;
-    font-size:3.75em; /* 60px */
-    line-height: 1.5;
-    text-shadow: 4px 4px 6px #000;
-    letter-spacing: 2px;
-    text-align: center;
+
+h1{
+    font-family: 'fengardo_neueblack', sans-serif;
+    font-size: 3.75em; /* 60px / 16pt = 3.75 em */
+    text-shadow: 4px 4px 8px #333;
+    letter-spacing: 10px;
 }
+
 h2 {
-    font-size:2.5em;
-    color:#243a6c;
+    font-size: 2.75em;
+    color: #243a6c;
     text-align: center;
-    border-bottom:dotted 2px #243a6c;
-    margin:0 0 .4em;
-    padding:.4em 0 0;
-}
-main{
-    background-color:white;
-}
-img {
-    max-width: 100%;
-    height:auto;
+    border-bottom: dashed 2px #243a6c;
+    margin: 0 0 0.4em;
 }
 
-figcaption {
-    font-size:.7em;
-    font-style: italic;
-    font-family:Georgia, serif;
-    text-align: center;
-}
-/* main navigation */
-#mainMenu a{
-    color:white;
-    text-decoration: none;
+#mainMenu a {
     display: block;
-    padding:.2em .6em;
-    border-bottom:solid 1px white; 
+    color: white;
+    text-decoration: none;
+    padding: 0.2em 0;
+    border-bottom: solid 1px white;
 }
+
 #mainMenu a:hover {
-    background-color:#0a193b;
+    background-color: #0a193b;
 }
-#mainMenu li:nth-child(1){
-    border-top:solid 1px white;
-}
-/* end main navigation */
 
-/* general classes */
-.onRight {
-    float:right;
-    margin-left:.2em;
+#mainMenu li:nth-child(1) {
+    border-top: solid 1px white;
+    padding: 0.6em;
 }
+
+article {
+    
+}
+
+#article-secondary {
+    
+}
+
 .onLeft {
-    float:left;
-    margin-right:.2em;
-}
-.clearIt {
-    clear:both;
-}
-.halfSize {
-    max-width:50%;
+    
 }
 
+.onRight {
+    
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+main {
+    
+}
