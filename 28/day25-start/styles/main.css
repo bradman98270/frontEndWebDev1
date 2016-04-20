@@ -211,6 +211,30 @@ a.button-more:after {
 }
 
 
+/* Further rules to enhance the page after designing the initial mobile first style rules */
+
+h3 {
+    padding-top: 1em;
+}
+a.button-more {
+    white-space: nowrap;
+}
+/*  */
+/* larger screen rules added */
+
+@media screen and (min-width:670px){/* Media Queries */}
+
+body {
+    max-width: 1000px; /* Setting maximum width for the page */
+    margin: 0 auto;/* horizontally center content on the page */
+}
+h2 {
+    font-size: 1.75em; /*  */
+}
+#mainMenu {
+    text-align: center;
+}
+
 
 
 
