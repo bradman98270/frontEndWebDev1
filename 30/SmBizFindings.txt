@@ -1,0 +1,11 @@
+Name; Website; Phone; Contact; Description; Street; City; State; Zip
+Small Business Administration; ; (619) 557-7250; ;Business Management Consultant; 
+SCORE; https://sandiego.score.org/; (619) 557-7272; ; 550 W C St; San Diego; CA; 92101
+jlabs;
+connect.org;
+ansirsd;
+union Coop;
+evonexus;
+SDSU;
+USD;
+UCSD;
