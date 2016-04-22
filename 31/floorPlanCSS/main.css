@@ -1,4 +1,17 @@
-#boardRm{
+body{
+    background-color:azure;
+    width:960px;
+}
+#building{
+    background-color:bisque
+}
+#mainRm{
+    background-color:brown;
+    float:right;
+    width:800px;
+    height:800px;
+}
+#powerRm{
     
 }
 #kitchen{
@@ -7,13 +20,13 @@
 #zenRm{
     
 }
-#mainRm{
-    
-}
 #library{
     
 }
-#eastRm{
+#entrance{
+    
+}
+#cherryRm{
     
 }
 #plumRm{
@@ -22,9 +35,9 @@
 #pineRm{
     
 }
-#cherryRm{
+#boardRm{
     
 }
-#entrance{
+#eastRm{
     
 }
